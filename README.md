@@ -12,6 +12,7 @@ You're building a high-throughput API for a cryptocurrency trading platform. For
 - [ ] 4. POST  
 
 A: GET is the standard and most efficient HTTP verb for read-only operations
+
 ---
 
 ### 2
@@ -27,6 +28,7 @@ You work for a Customer Relationship Management (CRM) company. The company's cli
 - [ ] 4. /customers/all  
 
 A: This path is resource-oriented, specific for contact rather than ambiguous `customer`, and flexible for future changes to the contacts data model by not depending on any type.
+
 ---
 
 ### 3
@@ -42,6 +44,7 @@ You work for a large social media network, and you've been tasked with error han
 - [x] 4. 401 if the user doesn't exist or if the password is wrong.  
 
 A: Returning 401 just means unathorized, so we don't know if the user exists for example, to help with brute force.
+
 ---
 
 ### 4
@@ -55,6 +58,7 @@ You're writing documentation for requesting information about a given user in yo
 - [x] 2. FALSE  
 
 A: Avoids the risk of accidentally representing real or misleading data in documentation.
+
 ---
 
 ### 5
@@ -69,6 +73,7 @@ You're building code to handle errors issued from a remote API server. The respo
 - [ ] 3. Check for the presence of an error. If it exists, set a class property to the error, then throw an exception.  
 
 A: Throwing an exception immediately on error detection ensures that failures are handled explicitly and transparently by consuming code.
+
 ---
 
 ### 6
@@ -83,6 +88,7 @@ You have two classes: a database driver and an email driver. Both classes need t
 - [x] 3. Make a driver-based error provider to handle errors in all classes that can issue errors.  
 
 A: A shared error provider to controller level centralizes error handling logic across multiple drivers, promoting consistency and scalability.
+
 ---
 
 ### 7
@@ -98,6 +104,7 @@ You need to name the private method in your class that handles looping through e
 - [x] 4. parseDataForProductsAndSetArray()  
 
 A: Communicates both the action (parsing) and the side effect (setting an array), aligning with descriptive naming best practices.
+
 ---
 
 ### 8
